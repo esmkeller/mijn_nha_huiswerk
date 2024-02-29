@@ -1,0 +1,105 @@
+header {
+    background-color: #870505;
+    border-style: solid;
+    border-color: black;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+}
+
+header h1 {
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+header nav a {
+        color: white;
+        text-decoration: none;
+        display: inline-block;
+        height: 22px;
+        width: 100px;
+        padding: 12px;
+        text-align: center;
+        color: white;
+        border-left: 10px solid rgb(0, 0, 0);
+        border-right: 10px solid rgb(0, 0, 0);
+        background-color: rgba(255, 0, 0, 0.7);
+        border-radius: 10px;
+}
+
+header nav a:hover {
+        background-color: rgb(255, 221, 0);
+        border-style: none;
+}
+
+.p1{
+    background-color: #cb4949;
+    text-align: center;
+    font-style: italic;
+    width: 350px;
+    height: 50%;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 18px;
+    margin: 0 auto
+}
+
+table{
+        border-collapse: collapse;
+        background-color: #ffffff;
+        width: 800px;
+        margin: 0 auto;
+        }
+
+td, th{
+        padding: 10px 5px;
+        background-color:#cb4949;
+        margin: 0 auto
+        }
+
+.h2 {
+    text-align: center;
+}
+
+.form { 
+    text-align: center;
+    font-size: 18px; color: #870505;}input[type="text"], 
+    input[type="email"], textarea, select, button{display: 
+        block;margin: 15px 0px;width: 400px;box-sizing: 
+        border-box;border-radius: 4px; 
+        box-shadow: inset 2px 2px 5px #cb4949;
+        margin: 0 auto
+    }
+    
+.form textarea {
+    height: 100px;
+    padding: 5px 4px;
+}
+
+.form button:active {background-color: rgb(255, 221, 0);
+    color: white;
+    border-radius: 4px; 
+    box-shadow: inset 2px 2px 5px blue;
+}
+
+.center {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
+footer {
+    background-color: #870505;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 5px;
+}
+
+body {
+    background-color: #f5000032;
+    padding: 5px;
+}
