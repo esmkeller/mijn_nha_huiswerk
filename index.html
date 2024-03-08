@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>Mijn Woonplaats</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <style>
+        #content{
+margin-top: 20px;
+}
+[class*="col-"] {
+width: 100%;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+padding: 15px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
+    #een    {
+min-height: 300px;
+background-color: rgb(177, 98, 7);
+}
+
+    #twee   {
+        min-height: 300px;
+        background-color: bisque;
+    }
+    .doosje{
+            display: inline-block;
+            font-family: 'Montserrat', sans-serif;
+            width: 45%;
+            min-height: 400px;
+            background-color: bisque;
+            vertical-align: top;
+            word-wrap: break-word;
+}
+    .doosje1{
+width: 45%;
+min-height: 400px;
+background-color: rgb(177, 98, 7);
+display: inline-block;
+font-family: 'Montserrat', sans-serif;
+vertical-align: top;
+}
+    body {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            margin: 0;
+}
+    header {
+            background-image: url('dordt.png');
+            background-size: cover;
+            height: 200px;
+            width: 100%;
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+            font-family: 'Montserrat', sans-serif;
+}
+    .row {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+    img{
+float: right;
+width: 40%;
+margin-right: 5px;
+border-radius: 5px;
+border: 2px solid white;
+padding: 5px;
+}
+    footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (max-width: 768px) {
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+</style>
+</head>
+<body>
+    <header>
+    <h1>Dordrecht</h1>
+    </header>
+    <div class="row">
+        <div class="col-2">
+        <section id="een">
+            <div class="doosje">
+                    <ul>
+                        <li><h4>Oudste stad van Holland</h4></li>
+                        <li><h4>De Grote Kerk</h4></li>
+                    </ul>
+            </div>
+            <div class="doosje">
+                    <ul>
+                        <li><h4>Schapenkoppen</h4></li>
+                        <li><h4>Eiland</h4></li>
+                        <li><h4>Oppervlakte van 99,47 km²</h4></li>
+                    </ul>
+            </div>
+            </section>
+        </div>
+        <div class="col-9">
+            <section id="twee">
+            <div class="doosje1"><h4><img src="grotekerk.JPG" alt="Grote Kerk Dordrecht">
+                De Grote of Onze-Lieve-Vrouwekerk te Dordrecht, in de Nederlandse provincie Zuid-Holland, is de grootste kerk van deze stad. Het is een kruisbasiliek in Brabants-gotische stijl met een onvoltooide toren en de op een na oudste kerk van de stad (de oudste heet paradoxaal genoeg de Nieuwkerk). In 1572 kwam de kerk in handen van de protestanten. De kerk staat in de 'Top 100 van de Rijksdienst voor de Monumentenzorg' uit 1990.</h4></div>
+            <div class="doosje1"><h4><img src="dordrecht.jpg" alt="Dordrecht landschap">
+                Dordrecht is een van de oudste steden in Holland en kent een lange geschiedenis. Dordrecht werd voor het eerst vermeld in een tekst uit de twaalfde eeuw, toen de stad nog werd aangeduid als Thuredrech. Al in 1220 kreeg Dordrecht stadsrechten door graaf Willem I. In de middeleeuwen ontwikkelde de stad zich als belangrijke handelsstad en stapelplaats en was het een van de zes grote steden van Holland. Het kende een levendige handel in onder meer hout, graan en wijn. Later nam het belang van de stad af, maar de historische binnenstad herinnert nog altijd aan dit rijke verleden.</h4></div>
+            </section>
+        </div>
+            </div>
+        
+        <footer>
+    <p>&copy; 2024 Ellery Keller. Alle rechten voorbehouden.</p>
+</footer>
+</body>
+</html>
